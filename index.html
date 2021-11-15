@@ -10,7 +10,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <script src="firebase.js"></script>
-    <title>Document</title>
+    <title>My Firebase Contact Form</title>
 </head>
 
 <body>
@@ -18,7 +18,10 @@
         <strong class="font-bold">Error!</strong>
         <span class="block sm:inline">Pleaes fill your details correctly</span>
     </div>
-    
+
+    <div class="flex items-center hidden px-4 py-3 text-sm font-bold text-white bg-blue-500" id="success" role="alert">
+        <p>Your form data has been submited successfully</p>
+    </div>
 
     <section class="relative text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
